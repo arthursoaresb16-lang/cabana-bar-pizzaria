@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+nav a {
+  color: orange;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  background: orange;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cardapio {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item span {
+  color: orange;
+  font-weight: bold;
+}
+
+.pedido {
+  display: block;
+  margin-top: 10px;
+  background: green;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #000;
+  color: white;
+  padding: 10px;
+}
